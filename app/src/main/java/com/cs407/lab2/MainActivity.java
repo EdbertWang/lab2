@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         EditText myTextField = (EditText) findViewById(R.id.myTextField);
         Toast.makeText(MainActivity.this,myTextField.getText().toString(), Toast.LENGTH_LONG).show();
+        goToActivity(myTextField.getText().toString());
     }
 
     public void goToActivity(String s){
